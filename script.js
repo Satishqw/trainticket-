@@ -7,7 +7,7 @@ document.getElementById('booking-form').addEventListener('submit', function(even
     
     const movie = movieSelect.options[movieSelect.selectedIndex].text;
     const seats = seatsInput.value;
-    const ticketPrice = 10; // Assume each ticket costs $10
+    const ticketPrice = 20; // Assume each ticket costs $20
     const totalPrice = seats * ticketPrice;
     
     summaryText.textContent = `You have booked ${seats} seat(s) for "${movie}". Total price: $${totalPrice}.`;
